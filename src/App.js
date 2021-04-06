@@ -8,7 +8,7 @@ import Contact from "./pages/contact/Contact";
 import "./App.css";
 
 function App() {
-	const [pageName, setPageName] = useState("Home");
+	const [pageName, setPageName] = useState("About");
 	const changePageName = (pageName) => setPageName(pageName);
 
 	return (
